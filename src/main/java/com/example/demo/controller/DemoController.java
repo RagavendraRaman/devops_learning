@@ -12,6 +12,6 @@ public class DemoController {
 
     @GetMapping("/print")
     public ResponseEntity print(){
-        return new ResponseEntity("Success", HttpStatus.OK);
+        return new ResponseEntity("Done", HttpStatus.OK);
     }
 }
